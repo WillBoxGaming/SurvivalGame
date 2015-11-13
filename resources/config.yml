@@ -1,34 +1,41 @@
 ---
-#####
-# Surviva Game Plugin
-# Made By: Andre_The_Gamer
-#####
 
-########################
-# Message 
-########################
-Player_Join_Server: Welcome To My Server 
-ArenaJoin: Joinning SG Match.........
-Arenajoined: You have join SG-1
-ArenaFullMessage: Tournament Is Full, Join Later
+### SurvivalGames Plugin
+### By: Andre_The_Gamer
+
+### Language 
+
+PlayerJoinServer: Welcome To My Server 
+ArenaJoin: Joining SG Match...
+Arenajoined: You have join {ARENA}
+ArenaFullMessage: Tournament Is Full, please try later
 
 
-########################################################
-# Arena's #
-########################################################
-Lobby: Lobby    // This will be where player's get teleported after they die / win match.
-Arena: SG   // The world the plugin will use to teleport the player to the arena.
+### Arena settings
 
-Min-Player: 2 // Cannot be changed! 'YET"
-Max-Player: 24 // Cannot be changed! 'YET"
+# The world the plugin will use to teleport players to lobby after
+# they die, or win a match.
+
+LobbyWorld: Lobby
+
+# The world the plugin will use to teleport the player to
+# the arena.
+
+Arena: world
+
+# Player control [CANNOT BE CHANGED YET]
+
+Min_Player: 2
+Max_Player: 24
 
 
-# Stand Where you wan't to set spawn and do /xyz and add the number's in config
+# Stand where you want to set a spawn and do /xyz and add the
+# numbers in config
 # Add The same line for more player's
 Spawns:
-- 12      // Edit the number's //
-- 121
-- 121
+- 0, 0, 0
+- 5, 5, 5
+- 2, 3, 4
 
 
 ---
