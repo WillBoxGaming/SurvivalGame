@@ -1,0 +1,28 @@
+#Messages en français
+#Ceci n'est PAS le fichier de langage par défaut!
+
+## Si vous faites une erreur, retirez ce fichier et
+## une copie de ce fichier apparaitra après avoir redémarré/rechargé le serveur!
+
+
+# Événements communs
+Already_Playing: Vous êtes déjà dans une partie!
+Joined_Arena: Vous avez rejoint une partie
+Not_In_Match: Vous n'êtes pas dans une partie
+Matched_Running: Cette partie a déjà commencé!
+No_Permission: Vous n'avez pas la permission d'utiliser cette commande
+Force_Start: La partie a été forcée de démarrer
+Blocked_Command: Cette commande est bloquée
+
+# Choses relatives au temps
+Starting: Démarrage dans {time}
+Timer: Démarrage dans {time}
+Not_Enough_Players: Pas assez de joueurs. Le chronomètre s'est arrêté
+
+# Arena related: Utilisez /n pour créer une nouvelle ligne
+Started: La partie a commencé!
+Chest_Refilled: Les coffres ont étés remplis!
+Deathmatch_starting: Le Deathmatch commence dans {time} 
+Deatchmatch_started: Le Deathmatch a commencé. Que le meilleur gagne!
+Match_Ending: La partie se termine dans {time}
+Match_Ended: La partie est terminée
